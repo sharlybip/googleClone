@@ -1,88 +1,80 @@
 
-
-.header{
-    display: flex;
-    
-    justify-content: space-between;
-    align-items: center;
-    height: 34px;
-    position: relative;
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
 
 }
-.container{
-    margin: 0 0 0 940px;
+header nav{
     display: flex;
-    align-content: center;
-    
+    justify-content: flex-end;
+
 }
-.menu { 
-    height: inherit;
-  }
-.header ol {
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
     display: flex;
     list-style: none;
-    height: inherit;
-    
-  }
-  .header ol li { 
-    height: inherit;
-  }
-.header a{
-    text-decoration: none;
-    height: inherit;
-    display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 0 20px;
-}
-.search{
-    
-    height: 490px;
-    
-}
-.search-container{
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 450px;
-}
-.search-container img, input{
-    display: inherit;
-    margin: 10px 0;
-}
-.search-container input{
-    
-    width: 500px;
-    border: 2px solid #cec0c0;
-    height: 30px;
-    border-radius: 15px;
-}
+
 
 }
-.gogleApps{
-   
-    height: 30px;
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: #000000;
 }
-.usuarioimg{
-    border: 1px solid red;
-    border-radius: 15px;
-    height: 30px;
-    position: relative;
-    overflow: hidden;
-  
+nav .nav-right-section .menu-icon{
+    background-image: url(https://cdn.icon-icons.com/icons2/1369/PNG/512/-apps_90405.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
 }
-.usuarioimg img{
-    object-fit: cover;
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
 }
-.footer{
-    border: 1px solid #cec0c0;
-    background: #f0ebeb;
-    height: 90px;
-    color: #726d6d;
+main{
+    margin-top: 150px;
+    text-align: center;
 }
-.footer p a {
-    text-decoration: none;
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
     
+
 }
-.footer a{
-    margin: 10px;
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
